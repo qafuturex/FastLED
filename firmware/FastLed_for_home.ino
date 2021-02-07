@@ -1,6 +1,6 @@
 #define NUM_LEDS 50
 #include "FastLED.h"
-#define PIN 10
+#define PIN 10 // Управляющий пин
 CRGB leds[NUM_LEDS];
 byte counter;
 void setup() {
